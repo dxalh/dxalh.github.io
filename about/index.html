@@ -43,6 +43,8 @@
 	
 		<div id="cd-logo"><a href="/"><img src="/img/logo.png" alt="Logo"></a></div>
 	
+	<div class="header_bg">
+
 	
 	<!-- motto or description -->
 		
@@ -95,7 +97,7 @@
 <script type="text/javascript">
 	function changeHeaderBg(){
 		var random_bg = Math.floor(Math.random() * 109 + 1);
-		var bg = 'url(https://XXX-youname-XXX.github.io/Random-img/' + random_bg + '.jpg)';
+		var bg = 'url(https://dxalh.github.io/Random-img/' + random_bg + '.jpg)';
 		$("#header-bg-2").css("background-image", bg);
 	}
 </script>
@@ -103,7 +105,8 @@
 <span class="change-header-bg">
 	——&nbsp;<i  class="fa fa-camera-retro" onclick="changeHeaderBg()"></i>	
 </span>
-	</p>		
+	</p>
+</div>		
 </header>
 
 <!-- nav -->
@@ -222,21 +225,21 @@
 	.motto {
 		color: #000000;
 		font-size: 20px;
-		margin: 100px 25% 0;
-		width: 50%;
+		margin: 50px auto 0;
+		width: 70%;
 		line-height: 1.4;
 		font-family:"KaiTi", "STXingkai", "Source Sans Pro", "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
 		text-align: center;
 	}
 	@media(max-width: 890px) {
 		.motto {	
-			margin: 100px 10% 0;
+			margin: 100px auto 0;
 			width: 80%;
 		}
 	}
 	@media(max-width: 890px) {
 		.motto {
-			margin: 100px 5% 0;
+			margin: 100px auto 0;
 			width: 90%;
 		}
 	}
@@ -254,10 +257,10 @@
 
 <script type="text/javascript">
 	//generate a random img that pre_name 'from 0 to 110'
-	var random_bg = Math.floor(Math.random() * 109 + 1);
+	var random_bg = Math.floor(Math.random() * 10 + 1);
 
-	//var bg = 'url(/img/random/' + random_bg + '.jpg)';		
-	var bg = 'url(https://XXX-youname-XXX.github.io/Random-img/' + random_bg + '.jpg)';
+	// var bg = 'url(/img/random/' + random_bg + '.jpg)';		
+	var bg = 'url(https://dxalh.github.io/Random-img/' + random_bg + '.jpg)';
 
 	$("#header-bg-2").css("background-image", bg);
 </script>

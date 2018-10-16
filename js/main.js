@@ -78,8 +78,8 @@ jQuery(document).ready(function($) {
 		//generate a random img that pre_name 'from 0 to 110'
 		var random_bg = Math.floor(Math.random() * 109 + 1);
 
-		var bg = 'url(/img/1.jpg)';
-		// var bg = 'url(/img/random/' + random_bg + '.jpg)';
+		//var bg = 'url(/img/random/' + random_bg + '.jpg)';
+		var bg = 'url(/img/random/' + random_bg + '.jpg)';
 
 		$("#header-bg-2").css("background-image", bg);
 	};
